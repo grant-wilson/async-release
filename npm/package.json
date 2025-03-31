@@ -1,0 +1,22 @@
+{
+  "name": "@triangulum/async-relase",
+  "version": "1.0.0-alpha.1",
+  "description": "Quala",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grant-wilson/async-request.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grant-wilson/async-request/issues"
+  },
+  "main": "./script/index.js",
+  "module": "./esm/index.js",
+  "exports": {
+    ".": {
+      "import": "./esm/index.js",
+      "require": "./script/index.js"
+    }
+  },
+  "_generatedBy": "dnt@dev"
+}
