@@ -1,2 +1,2 @@
-export declare function release(): Promise<unknown>;
+export declare function release(): Promise<void>;
 //# sourceMappingURL=release.d.ts.map

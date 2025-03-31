@@ -1,7 +1,7 @@
 {
   "name": "@triangulum/async-relase",
   "version": "1.0.0-alpha.1",
-  "description": "Quala",
+  "description": "Release microtask using async/await",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/grant-wilson/async-request.git"
@@ -18,5 +18,9 @@
       "require": "./script/index.js"
     }
   },
+  "scripts": {
+    "publish": "npm publish --access public --tag next"
+  },
+  "public": true,
   "_generatedBy": "dnt@dev"
 }

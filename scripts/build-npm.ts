@@ -11,12 +11,16 @@ await build({
   test: false,
   typeCheck: "both",
   compilerOptions: {
-    lib: ["DOM", "ES2015"]
+    lib: ["DOM", "ES2015"],
   },
   package: {
     name: "@triangulum/async-relase",
     version: "1.0.0-alpha.1",
-    description: "Quala",
+    public: true,
+    description: "Release microtask using async/await",
+    scripts: {
+      "publish": "npm publish --access public --tag next",
+    },
     license: "MIT",
     repository: {
       type: "git",
